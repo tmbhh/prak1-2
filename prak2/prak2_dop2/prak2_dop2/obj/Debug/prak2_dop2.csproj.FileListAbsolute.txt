@@ -1,7 +1,0 @@
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\bin\Debug\prak2_dop2.exe.config
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\bin\Debug\prak2_dop2.exe
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\bin\Debug\prak2_dop2.pdb
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\obj\Debug\prak2_dop2.csproj.AssemblyReference.cache
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\obj\Debug\prak2_dop2.csproj.CoreCompileInputs.cache
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\obj\Debug\prak2_dop2.exe
-D:\prak2_tmbh\prak2\prak2_dop2\prak2_dop2\obj\Debug\prak2_dop2.pdb

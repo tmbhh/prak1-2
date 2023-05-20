@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zaddop1_wpf", "zaddop1_wpf\zaddop1_wpf.csproj", "{6001B941-20BD-41A9-9EC8-08ECE28740F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6001B941-20BD-41A9-9EC8-08ECE28740F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6001B941-20BD-41A9-9EC8-08ECE28740F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6001B941-20BD-41A9-9EC8-08ECE28740F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6001B941-20BD-41A9-9EC8-08ECE28740F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFDF8790-1FBA-4CE5-80EA-29B03FBE0811}
+	EndGlobalSection
+EndGlobal
