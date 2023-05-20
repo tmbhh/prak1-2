@@ -1,0 +1,8 @@
+C:\git_prak2_tmbh\zad3\bin\Debug\zad3.exe.config
+C:\git_prak2_tmbh\zad3\bin\Debug\zad3.exe
+C:\git_prak2_tmbh\zad3\bin\Debug\zad3.pdb
+C:\git_prak2_tmbh\zad3\obj\Debug\zad3.csproj.AssemblyReference.cache
+C:\git_prak2_tmbh\zad3\obj\Debug\zad3.csproj.SuggestedBindingRedirects.cache
+C:\git_prak2_tmbh\zad3\obj\Debug\zad3.csproj.CoreCompileInputs.cache
+C:\git_prak2_tmbh\zad3\obj\Debug\zad3.exe
+C:\git_prak2_tmbh\zad3\obj\Debug\zad3.pdb

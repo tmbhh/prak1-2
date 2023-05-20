@@ -26,12 +26,12 @@
             </Grid.RowDefinitions>
 
             <TextBlock Text="Задание 2"       Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="14.4" Margin="19.953,7.8,119.953,7.8" Width="54.094"></TextBlock>
-            <TextBlock Text="a1="  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-            <TextBlock Text="b1="  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-            <TextBlock Text="c1="  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="a2="  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="b2="  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="c2="  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="m="  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="n="  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="none="  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
 
         <TextBlock x:Name="TextBlockAnswer"    Text="Ответ: "   Grid.Row="7"  Grid.Column="0"  Grid.ColumnSpan="2"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"  Margin="10,10,20.667,10"/>
             <TextBox x:Name="TbNumberA1"     Grid.Row="1" Grid.Column="1"  VerticalContentAlignment="Center" Padding="10 0"     BorderThickness="1"/>
@@ -53,28 +53,13 @@
 
 
 
-
-
-
-
-
-
 void BtnOK_Click(object sender, EventArgs e)
         {
-            int count;
-            int k = Convert.ToInt32(TbNumberA1.Text);
-            if (k >= 1 && k <= 365)
-            { for (int i = 7; k >= i;) { k = k - i; } }
-            count = k;
-            if (count == 0) { TextBlockAnswer.Text="номер дня недели 0"; }
-            else if (count == 1) { TextBlockAnswer.Text = "номер дня недели 1"; }
-            else if (count == 2) { TextBlockAnswer.Text = "номер дня недели 2"; }
-            else if (count == 3) { TextBlockAnswer.Text = "номер дня недели 3"; }
-            else if (count == 4) { TextBlockAnswer.Text = "номер дня недели 4"; }
-            else if (count == 5) { TextBlockAnswer.Text = "номер дня недели 5"; }
-            else if (count == 6) { TextBlockAnswer.Text = "номер дня недели 6"; }
-
-
-
-
-        }ли 6"); }
+            
+            int m = Convert.ToInt32(TbNumberA1.Text); 
+            if (m>0) 
+            {
+                m = m - 8;
+                TextBlockAnswer.Text = $"{m} "; }
+            else { TextBlockAnswer.Text = $"{m} "; }
+        }

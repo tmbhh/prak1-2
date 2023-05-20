@@ -26,12 +26,12 @@
             </Grid.RowDefinitions>
 
             <TextBlock Text="Задание 2"       Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="14.4" Margin="19.953,7.8,119.953,7.8" Width="54.094"></TextBlock>
-            <TextBlock Text="a1="  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-            <TextBlock Text="b1="  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-            <TextBlock Text="c1="  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="a2="  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="b2="  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
-        <TextBlock Text="c2="  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="m="  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="n="  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+            <TextBlock Text="none="  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
+        <TextBlock Text="none="  Grid.Row="6" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Center"  Margin="10,13,0,13" Height="14" Width="56"/>
 
         <TextBlock x:Name="TextBlockAnswer"    Text="Ответ: "   Grid.Row="7"  Grid.Column="0"  Grid.ColumnSpan="2"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch"  Margin="10,10,20.667,10"/>
             <TextBox x:Name="TbNumberA1"     Grid.Row="1" Grid.Column="1"  VerticalContentAlignment="Center" Padding="10 0"     BorderThickness="1"/>
@@ -53,17 +53,14 @@
 
 
 
-void BtnOK_Click(object sender, EventArgs e)
+
+    void BtnOK_Click(object sender, EventArgs e)
         {
             
-            int l = Convert.ToInt32(TbNumberA1.Text);
-            
-            l = l / 100;
-
-            TextBlockAnswer.Text = $"{l}m";
-            
-            
-
-
-
+            int m = Convert.ToInt32(TbNumberA1.Text); 
+            int n = Convert.ToInt32(TbNumberB1.Text);
+            int s1 = m / n;
+            int s = m % n;
+            if (s == 0) { TextBlockAnswer.Text = $"{s1} "; }
+            else { TextBlockAnswer.Text = "M на N нацело не делится "; }
         }
