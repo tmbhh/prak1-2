@@ -1,0 +1,15 @@
+D:\prak1-2\prak4\zad6\zad6\bin\Debug\zad6.exe.config
+D:\prak1-2\prak4\zad6\zad6\bin\Debug\zad6.exe
+D:\prak1-2\prak4\zad6\zad6\bin\Debug\zad6.pdb
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.csproj.AssemblyReference.cache
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\MainWindow.g.cs
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\App.g.cs
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6_MarkupCompile.cache
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6_MarkupCompile.lref
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\MainWindow.baml
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.g.resources
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.Properties.Resources.resources
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.csproj.GenerateResource.cache
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.csproj.CoreCompileInputs.cache
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.exe
+D:\prak1-2\prak4\zad6\zad6\obj\Debug\zad6.pdb
