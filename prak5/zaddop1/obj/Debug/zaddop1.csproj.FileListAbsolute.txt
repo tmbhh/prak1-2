@@ -1,0 +1,16 @@
+C:\prak1-2\prak5\zaddop1\bin\Debug\zaddop1.exe.config
+C:\prak1-2\prak5\zaddop1\bin\Debug\zaddop1.exe
+C:\prak1-2\prak5\zaddop1\bin\Debug\zaddop1.pdb
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.csproj.AssemblyReference.cache
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.csproj.SuggestedBindingRedirects.cache
+C:\prak1-2\prak5\zaddop1\obj\Debug\MainWindow.g.cs
+C:\prak1-2\prak5\zaddop1\obj\Debug\App.g.cs
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1_MarkupCompile.cache
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1_MarkupCompile.lref
+C:\prak1-2\prak5\zaddop1\obj\Debug\MainWindow.baml
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.g.resources
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.Properties.Resources.resources
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.csproj.GenerateResource.cache
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.csproj.CoreCompileInputs.cache
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.exe
+C:\prak1-2\prak5\zaddop1\obj\Debug\zaddop1.pdb

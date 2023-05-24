@@ -1,0 +1,16 @@
+C:\prak1-2\prak5\zad3\bin\Debug\zad3.exe.config
+C:\prak1-2\prak5\zad3\bin\Debug\zad3.exe
+C:\prak1-2\prak5\zad3\bin\Debug\zad3.pdb
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.csproj.AssemblyReference.cache
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.csproj.SuggestedBindingRedirects.cache
+C:\prak1-2\prak5\zad3\obj\Debug\MainWindow.g.cs
+C:\prak1-2\prak5\zad3\obj\Debug\App.g.cs
+C:\prak1-2\prak5\zad3\obj\Debug\zad3_MarkupCompile.cache
+C:\prak1-2\prak5\zad3\obj\Debug\zad3_MarkupCompile.lref
+C:\prak1-2\prak5\zad3\obj\Debug\MainWindow.baml
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.g.resources
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.Properties.Resources.resources
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.csproj.GenerateResource.cache
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.csproj.CoreCompileInputs.cache
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.exe
+C:\prak1-2\prak5\zad3\obj\Debug\zad3.pdb
